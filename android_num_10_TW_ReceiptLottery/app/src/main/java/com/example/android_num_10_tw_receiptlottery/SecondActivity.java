@@ -58,7 +58,7 @@ public class SecondActivity extends AppCompatActivity {
         }
     }
     public void click_BtoC(View v){
-        EditText editText = (EditText)findViewById(R.id.e1);
+        EditText editText = (EditText)findViewById(R.id.edit1);
         Intent intent = new Intent(this, ThirdActivity.class);
         Bundle bundle = new Bundle();
         bundle.putString("winNum", editText.getText().toString());
